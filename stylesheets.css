@@ -1,0 +1,104 @@
+css
+/* style.css */
+
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header Styles */
+
+header {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Main Styles */
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+}
+
+.recipe-card p {
+  margin-top: 5px;
+}
+
+.recipe-card a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+You can save this code in a file named "style.css" and link it to your HTML file using the `<link>` tag in the `<head>` section, like this:
+
+html
